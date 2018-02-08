@@ -5,7 +5,7 @@ var app = express()
 var http = require('http').Server(app)
 
 app.use(express.static(__dirname+'/public'))
-
+console.log('helo')
 
 http.listen(PORT,function(){
   
